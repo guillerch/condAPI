@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "condAPI"
+version = "1.0.0"
+description = "A description of your project"
+authors = ["GuillerCH <guillerc33@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/guillerch/condAPI"
+repository = "https://github.com/guillerch/condAPI"
+keywords = ["fastapi", "api", "condAPI"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.68.0"
+uvicorn = "^0.15.0"
+httpx = "^0.19.0"
+pydantic = "^1.8.2"
+
+[tool.poetry.scripts]
+condapi = "condAPI.__main__:main"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+requests = "^2.25.1"
+black = "^21.7b0"
+
+[[tool.poetry.packages]]
+include = "condAPI"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
