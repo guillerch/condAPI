@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-from condAPI.endpoints import root_router  # importa el objeto app
+from condAPI.endpoints import root_router
 
 client = TestClient(root_router)
 
