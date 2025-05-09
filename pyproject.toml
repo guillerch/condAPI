@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "condAPI"
-version = "1.0.0"
-description = "A description of your project"
+version = "1.0.1"
+description = "condAPI is a FastAPI-based application designed to manage and validate JSON schemas."
 authors = ["GuillerCH <guillerc33@gmail.com>"]
 license = "MIT"
 readme = "README.md"

@@ -4,7 +4,7 @@
 condAPI - A Python library for conditional API handling.
 """
 
-__version__ = "0.1.0"
+__version__ = "1.0.1"
 __author__ = "Guillerch"
 __all__ = ["start_service"]
 
